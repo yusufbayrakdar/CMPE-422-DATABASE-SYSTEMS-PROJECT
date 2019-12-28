@@ -1,0 +1,5 @@
+xquery version "3.0";
+for $x in doc("bike_rental.xml")/bike_rental/bike_rent_shop/bike
+where  $x/year>2010
+order by $x/year
+return $x/name

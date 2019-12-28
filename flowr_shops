@@ -1,0 +1,5 @@
+xquery version "3.0";
+for $x in doc("bike_rental.xml")/bike_rental/bike_rent_shop
+order by $x/name
+return $x/name
+

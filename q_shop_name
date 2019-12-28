@@ -1,0 +1,2 @@
+xquery version "3.0";
+doc("bike_rental.xml")/bike_rental/bike_rent_shop/name

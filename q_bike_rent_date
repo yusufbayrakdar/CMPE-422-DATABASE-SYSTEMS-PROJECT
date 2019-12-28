@@ -1,0 +1,2 @@
+xquery version "3.0";
+doc("bike_rental.xml")/bike_rental/bike_rent_shop/bike[name = "CRF 1000L Africa Twin"]/rent_date
